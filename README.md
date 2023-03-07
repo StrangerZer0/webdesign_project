@@ -1,5 +1,5 @@
 # webdesign_project
-Projekt stworzony w ramach modulu Webdesign na studiach. Projekt zawiera w sobie HTML/CSS, JavaScript. 
+Projekt zawiera w sobie HTML/CSS, JavaScript. 
 
 Zadaniem było przygotowanie strony (na temat portfolio) w frameworku Bootstrap z dodawaniem elementów w JS. 
 Projekt zawiera:
