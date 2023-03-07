@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.conteiner {
+    max-width: 1110;
+}
+
+.title-h3 {
+    font-size: 50px;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info-item {
+    height: 350px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.info-item01 {
+    background-image: url(/img/item1.png);
+}
+
+.info-item02 {
+    background-image: url(/img/item2.png);
+}
+
+.info-item03 {
+    background-image: url(/img/item3.png);
+}
+
+.text-info {
+    position: absolute;
+    bottom: 0;
+    left: .8rem;
+    right: 0;
+    width: 99.8%;
+    background-color: #212529;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-info h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/direction_back_left_arrow_ecommerce_icon_224964.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/direction_forward_right_arrow_ecommerce_icon_224963.svg);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 20px;
+}
+
+.carousel-control-prev {
+    left: -35px;
+}
+
+.carousel-control-next {
+    right: -35px;
+}
+
+a {
+    color: #fff;
+}
+
+.contact .info .info-icon {
+    background: #c0a9d5;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.cont-item {
+    height: 350px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cont-item01 {
+    background-image: url(/img/ContItem1.png);
+}
+
+.cont-item02 {
+    background-image: url(/img/ContItem2.png);
+}
+
+.cont-item03 {
+    background-image: url(/img/ContItem3.png);
+}
+
+.text-cont {
+    position: absolute;
+    bottom: 0;
+    left: .8rem;
+    right: 0;
+    width: 99.8%;
+    background-color: #212529;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+footer .main-footer {
+    padding: 20px 0;
+    background: #252525;
+}
+
+footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+
+footer.light .main-footer {
+    background: #f9f9f9;
+}
+
+footer.light .footer-copyright {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+
+
+.widget {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.widget.no-box {
+    padding: 0;
+    background-color: transparent;
+    margin-bottom: 40px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+.widget.subscribe p {
+    margin-bottom: 18px;
+}
+
+.widget li a {
+    color: #dcb9ff;
+}
+
+.widget-title {
+    margin-bottom: 20px;
+}
+
+.widget-title span {
+    background: #ffffff none repeat scroll 0 0;
+    display: block;
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 20%;
+}
+
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small {
+    color: #fff;
+}
+
+
+ul.social-footer2 {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+ul.social-footer2 li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-footer2 li a {
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
